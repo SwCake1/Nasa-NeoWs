@@ -1,0 +1,6 @@
+framework module Pods_TestQuest {
+  umbrella header "Pods-TestQuest-umbrella.h"
+
+  export *
+  module * { export * }
+}

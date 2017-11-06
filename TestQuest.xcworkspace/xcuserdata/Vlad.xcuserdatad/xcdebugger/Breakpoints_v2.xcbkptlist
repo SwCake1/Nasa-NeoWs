@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestQuest/Controllers/SpaceController.swift"
+            timestampString = "531658080.423984"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "drawSpace()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestQuest/CoordinateHelper.swift"
+            timestampString = "531587527.716375"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "CoordinateHelper"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestQuest.CoordinateHelper.init(center: CoreGraphics.CGFloat, startX: CoreGraphics.CGFloat, earthSize: CoreGraphics.CGFloat) -&gt; TestQuest.CoordinateHelper"
+                  moduleName = "TestQuest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Vlad/Desktop/TestQuest%20Samokhin%20V%20V/TestQuest/CoordinateHelper.swift"
+                  timestampString = "531510566.240732"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestQuest.CoordinateHelper.init() -&gt; TestQuest.CoordinateHelper"
+                  moduleName = "TestQuest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Vlad/Desktop/TestQuest%20Samokhin%20V%20V/TestQuest/CoordinateHelper.swift"
+                  timestampString = "531510566.242982"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestQuest/SpaceObjects/Asteroid.swift"
+            timestampString = "531592343.641029"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "Asteroid"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestQuest.Asteroid.name.getter : Swift.String"
+                  moduleName = "TestQuest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Vlad/Desktop/TestQuest%20Samokhin%20V%20V/TestQuest/SpaceObjects/Asteroid.swift"
+                  timestampString = "531579936.617204"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "97">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestQuest.Asteroid.name.setter : Swift.String"
+                  moduleName = "TestQuest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Vlad/Desktop/TestQuest%20Samokhin%20V%20V/TestQuest/SpaceObjects/Asteroid.swift"
+                  timestampString = "531579936.619459"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "146">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestQuest.Asteroid.init(name: Swift.String, distance: Swift.Double, diameter: Swift.Double) -&gt; TestQuest.Asteroid"
+                  moduleName = "TestQuest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Vlad/Desktop/TestQuest%20Samokhin%20V%20V/TestQuest/SpaceObjects/Asteroid.swift"
+                  timestampString = "531579936.621362"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "35">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestQuest/Services/NetworkService.swift"
+            timestampString = "531587527.71716"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "downloadAsteroids(on:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in TestQuest.NetworkService.downloadAsteroids(on: Foundation.Date, completion: (Swift.Array&lt;TestQuest.Asteroid&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TestQuest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Vlad/Desktop/TestQuest%20Samokhin%20V%20V/TestQuest/Services/NetworkService.swift"
+                  timestampString = "531585580.979228"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "2323">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftyJSON.JSON) -&gt; Swift.Bool in closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in TestQuest.NetworkService.downloadAsteroids(on: Foundation.Date, completion: (Swift.Array&lt;TestQuest.Asteroid&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TestQuest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Vlad/Desktop/TestQuest%20Samokhin%20V%20V/TestQuest/Services/NetworkService.swift"
+                  timestampString = "531585580.994921"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "97">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestQuest/Services/NetworkService.swift"
+            timestampString = "531587527.717216"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "downloadAsteroids(on:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in TestQuest.NetworkService.downloadAsteroids(on: Foundation.Date, completion: (Swift.Array&lt;TestQuest.Asteroid&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TestQuest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Vlad/Desktop/TestQuest%20Samokhin%20V%20V/TestQuest/Services/NetworkService.swift"
+                  timestampString = "531585841.175682"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "3994">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SwiftyJSON.JSON) -&gt; TestQuest.Asteroid in closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in TestQuest.NetworkService.downloadAsteroids(on: Foundation.Date, completion: (Swift.Array&lt;TestQuest.Asteroid&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TestQuest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Vlad/Desktop/TestQuest%20Samokhin%20V%20V/TestQuest/Services/NetworkService.swift"
+                  timestampString = "531585841.178013"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "93">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #3 : @autoclosure () throws -&gt; Swift.Array&lt;TestQuest.Asteroid&gt; in closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in TestQuest.NetworkService.downloadAsteroids(on: Foundation.Date, completion: (Swift.Array&lt;TestQuest.Asteroid&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TestQuest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Vlad/Desktop/TestQuest%20Samokhin%20V%20V/TestQuest/Services/NetworkService.swift"
+                  timestampString = "531585841.184647"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "62">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestQuest/SpaceObjects/Asteroid.swift"
+            timestampString = "531592343.641179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "init(json:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestQuest/SpaceObjects/Asteroid.swift"
+            timestampString = "531592343.641248"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "init(json:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
