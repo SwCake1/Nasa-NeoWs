@@ -14,10 +14,7 @@ final class SpaceViewController: UIViewController {
     let networkService = NetworkService()
     var date = Date() { didSet { updateTitle() } }
     var cH: CoordinateHelper!
-    var asteroids = [ Asteroid(name: "Some", distance: 300.1, diameter: 5.35),
-                      Asteroid(name: "Best", distance: 200.1, diameter: 10.35),
-                      Asteroid(name: "Nibs", distance: 50.1, diameter: 1.0),
-                      ]
+    var asteroids = [Asteroid]()
     
     @IBOutlet weak var titleButton: UIButton!
     @IBAction func tittleTouch(_ sender: UIButton) {
@@ -29,13 +26,21 @@ final class SpaceViewController: UIViewController {
         
         view.backgroundColor = UIColor.black
         setupCoordinateHelper()
-        drawSpace()
-        
         downloadAsteroidsAndUpdate()
+        drawSpace()
     }
     
-    // Загрузка данных из сети и обновление экрана
+    // Загрузка данных из сети/кэша и обновление экрана
     fileprivate func downloadAsteroidsAndUpdate() {
+        
+        // Сперва пытаемся загрузить из кеша
+        let asteroidsFromCache = networkService.readAsteroidsFromCache(on: date)
+        if asteroidsFromCache.isEmpty == false {
+            asteroids = asteroidsFromCache
+            drawSpace()
+        }
+        
+        // Затем загружаем из сети и обновляем кэш
         networkService.downloadAsteroids(on: date) { [weak self] asteroidsFromAPI in
             self?.asteroids = asteroidsFromAPI
             self?.drawSpace()
@@ -58,10 +63,12 @@ final class SpaceViewController: UIViewController {
     
     // Обновление макс. значений для расчета относительных величин координат
     fileprivate func updateCoordinateHelperMaxValues() {
+        
         let maxDiameter = asteroids.max{ $0.diameter < $1.diameter }?.diameter ?? 0
         let minDiameter = asteroids.min{ $0.diameter < $1.diameter }?.diameter ?? 0
         let maxDistance = asteroids.max{ $0.distance < $1.distance }?.distance ?? 0
-        cH.setDayValues(minDiameter: minDiameter, maxDiameter: maxDiameter, maxDistance: maxDistance)    }
+        cH.setDayValues(minDiameter: minDiameter, maxDiameter: maxDiameter, maxDistance: maxDistance)
+    }
     
     // Отрисовка всей сцены
     fileprivate func drawSpace() {
@@ -75,9 +82,9 @@ final class SpaceViewController: UIViewController {
     
     // Отрисовка земли
     fileprivate func drawEarth() {
-        let earth = SpaceObjectView(name: "Земля", diameter: 12742,
-                                    frame: CGRect(x:cH.startX, y: cH.centerY, width: cH.earthSize, height: cH.earthSize).shiftToCenter())
-        earth.image = #imageLiteral(resourceName: "earth")
+        let earth = EarthView(name: "Земля", diameter: 12742,
+                              frame: CGRect(x:cH.startX, y: cH.centerY, width: cH.earthSize, height: cH.earthSize).shiftToCenter())
+        
         view.addSubview(earth)
     }
     
@@ -109,6 +116,7 @@ final class SpaceViewController: UIViewController {
     
     // Задаем текст заголовка на выбранной даты
     fileprivate func updateTitle() {
+        
         // Если выбрана сегодняшняя дата
         if NSCalendar.current.isDate(date, inSameDayAs: Date()) {
             titleButton.setTitle("Сегодня ▾", for: .normal)

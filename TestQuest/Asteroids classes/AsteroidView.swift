@@ -45,6 +45,7 @@ final class AsteroidView: SpaceObjectView {
                        completion: nil )
                        
     }
+    
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         print("Конец тача")
         
@@ -61,11 +62,6 @@ final class AsteroidView: SpaceObjectView {
                                     menuImageArray: ["NameIcon", "DiameterIcon", "DistanceIcon"],
                                     done: { _ in deselect() },
                                     cancel: { _ in deselect() } )
-        
-    }
-    
-    override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
-        print("Канцел тача")
     }
     
     required convenience init(imageLiteralResourceName name: String) {
@@ -75,6 +71,4 @@ final class AsteroidView: SpaceObjectView {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
-    
 }

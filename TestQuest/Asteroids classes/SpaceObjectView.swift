@@ -8,6 +8,7 @@
 
 import UIKit
 
+// Супер класс для EarthView и AsteroidView
 class SpaceObjectView: UIImageView {
 
     let name: String
@@ -25,7 +26,7 @@ class SpaceObjectView: UIImageView {
         
         super.init(frame: frame)
         
-        isUserInteractionEnabled = true
+        isUserInteractionEnabled = true // для работы с касаниями
     }
 
     required init?(coder aDecoder: NSCoder) {

@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 extension CGRect {
-    // Позволяет при работе с координатами использовать координаты центра, а не левого верхнего угла
+    // Позволяет при работе с координатами, использовать координаты центра, а не левого верхнего угла
     func shiftToCenter() -> CGRect {
         return self.offsetBy(dx: -width/2, dy: -height/2)
     }

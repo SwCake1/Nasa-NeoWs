@@ -19,7 +19,8 @@
 		F50D17F71FAE2C5900F504E4 /* CGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50D17F61FAE2C5900F504E4 /* CGRectExtension.swift */; };
 		F56BFD111FAB5DB700FC29E0 /* Asteroid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56BFD101FAB5DB700FC29E0 /* Asteroid.swift */; };
 		F59413411FAC4C38007D9E3E /* AsteroidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59413401FAC4C38007D9E3E /* AsteroidView.swift */; };
-		F59413471FAC6873007D9E3E /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59413461FAC6872007D9E3E /* ToDo.swift */; };
+		F59FAE171FB1AC1F00715DAC /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FAE161FB1AC1F00715DAC /* Feed.swift */; };
+		F59FAE191FB1EA5700715DAC /* EarthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FAE181FB1EA5700715DAC /* EarthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +39,8 @@
 		F50D17F61FAE2C5900F504E4 /* CGRectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRectExtension.swift; sourceTree = "<group>"; };
 		F56BFD101FAB5DB700FC29E0 /* Asteroid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asteroid.swift; sourceTree = "<group>"; };
 		F59413401FAC4C38007D9E3E /* AsteroidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidView.swift; sourceTree = "<group>"; };
-		F59413461FAC6872007D9E3E /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		F59FAE161FB1AC1F00715DAC /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		F59FAE181FB1EA5700715DAC /* EarthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthView.swift; sourceTree = "<group>"; };
 		FE574DDF280A2B8DC4EAB26C /* Pods-TestQuest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestQuest.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestQuest/Pods-TestQuest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,15 +79,13 @@
 			children = (
 				F594133F1FAC4BB8007D9E3E /* Controllers */,
 				F59413421FAC4C4D007D9E3E /* Services */,
-				F50D17ED1FAE1F7800F504E4 /* CoordinateHelper.swift */,
-				F59413431FAC4C6F007D9E3E /* SpaceObjects */,
+				F59413431FAC4C6F007D9E3E /* Asteroids classes */,
 				F50D17F81FAE33A500F504E4 /* Extensions */,
 				3AD9EEC01F4C715B000491FF /* Assets.xcassets */,
 				3AD9EEBD1F4C715B000491FF /* Main.storyboard */,
 				3AD9EEC21F4C715B000491FF /* LaunchScreen.storyboard */,
 				3AD9EEB91F4C715B000491FF /* AppDelegate.swift */,
 				3AD9EEC51F4C715B000491FF /* Info.plist */,
-				F59413461FAC6872007D9E3E /* ToDo.swift */,
 			);
 			path = TestQuest;
 			sourceTree = "<group>";
@@ -127,18 +127,21 @@
 			isa = PBXGroup;
 			children = (
 				3AD9EECB1F4C71BD000491FF /* NetworkService.swift */,
+				F50D17ED1FAE1F7800F504E4 /* CoordinateHelper.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
 		};
-		F59413431FAC4C6F007D9E3E /* SpaceObjects */ = {
+		F59413431FAC4C6F007D9E3E /* Asteroids classes */ = {
 			isa = PBXGroup;
 			children = (
 				F50D17EF1FAE234D00F504E4 /* SpaceObjectView.swift */,
+				F59FAE181FB1EA5700715DAC /* EarthView.swift */,
 				F59413401FAC4C38007D9E3E /* AsteroidView.swift */,
 				F56BFD101FAB5DB700FC29E0 /* Asteroid.swift */,
+				F59FAE161FB1AC1F00715DAC /* Feed.swift */,
 			);
-			path = SpaceObjects;
+			path = "Asteroids classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,12 +285,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F50D17F01FAE234D00F504E4 /* SpaceObjectView.swift in Sources */,
+				F59FAE171FB1AC1F00715DAC /* Feed.swift in Sources */,
 				F56BFD111FAB5DB700FC29E0 /* Asteroid.swift in Sources */,
 				F50D17EE1FAE1F7800F504E4 /* CoordinateHelper.swift in Sources */,
-				F59413471FAC6873007D9E3E /* ToDo.swift in Sources */,
 				3AD9EEBC1F4C715B000491FF /* SpaceController.swift in Sources */,
 				3AD9EECC1F4C71BD000491FF /* NetworkService.swift in Sources */,
 				F59413411FAC4C38007D9E3E /* AsteroidView.swift in Sources */,
+				F59FAE191FB1EA5700715DAC /* EarthView.swift in Sources */,
 				F50D17F71FAE2C5900F504E4 /* CGRectExtension.swift in Sources */,
 				3AD9EEBA1F4C715B000491FF /* AppDelegate.swift in Sources */,
 			);

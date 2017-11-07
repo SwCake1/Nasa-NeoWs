@@ -8,21 +8,24 @@
 
 import UIKit
 import FTPopOverMenu_Swift
+import RealmSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         configurePopup()
         
+        // В проде я так конечно же бы делать не стал
+        Realm.Configuration.defaultConfiguration = Realm.Configuration(deleteRealmIfMigrationNeeded: true)
+        
         return true
     }
     
-    // Настройка попапа с инфой
+    // Настройка попапа с информацией об астероиде
     func configurePopup() {
     
         let configuration = FTConfiguration.shared
@@ -31,6 +34,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         configuration.textColor = UIColor.black
         configuration.backgoundTintColor = UIColor.lightGray
     }
+    
+    
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

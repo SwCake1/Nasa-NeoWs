@@ -8,23 +8,18 @@
 
 import Foundation
 import SwiftyJSON
+import RealmSwift
 
-class Asteroid {
+// Данные астероида
+final class Asteroid: Object {
     
-    var name = ""
-    var diameter = 0.0
-    var distance = 0.0
+    @objc dynamic var name = ""
+    @objc dynamic var diameter = 0.0
+    @objc dynamic var distance = 0.0
     
-    init(name: String, distance: Double, diameter: Double) {
+    convenience init(json: JSON) {
+        self.init()
 
-        self.name = name
-        self.diameter = diameter
-        self.distance = distance
-    }
-    
-    
-    init(json: JSON) {
-        
         name = json["name"].stringValue
         
         // Для диаметра и расстояния берем среднее значение

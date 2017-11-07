@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestQuest/Controllers/SpaceController.swift"
-            timestampString = "531658080.423984"
+            timestampString = "531756871.95716"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "drawSpace()"
             landmarkType = "7">
          </BreakpointContent>
@@ -126,117 +126,6 @@
                   startingLineNumber = "13"
                   endingLineNumber = "13"
                   offsetFromSymbolStart = "35">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TestQuest/Services/NetworkService.swift"
-            timestampString = "531587527.71716"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "downloadAsteroids(on:completion:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in TestQuest.NetworkService.downloadAsteroids(on: Foundation.Date, completion: (Swift.Array&lt;TestQuest.Asteroid&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "TestQuest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Vlad/Desktop/TestQuest%20Samokhin%20V%20V/TestQuest/Services/NetworkService.swift"
-                  timestampString = "531585580.979228"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "2323">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (SwiftyJSON.JSON) -&gt; Swift.Bool in closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in TestQuest.NetworkService.downloadAsteroids(on: Foundation.Date, completion: (Swift.Array&lt;TestQuest.Asteroid&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "TestQuest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Vlad/Desktop/TestQuest%20Samokhin%20V%20V/TestQuest/Services/NetworkService.swift"
-                  timestampString = "531585580.994921"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48"
-                  offsetFromSymbolStart = "97">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TestQuest/Services/NetworkService.swift"
-            timestampString = "531587527.717216"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "downloadAsteroids(on:completion:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in TestQuest.NetworkService.downloadAsteroids(on: Foundation.Date, completion: (Swift.Array&lt;TestQuest.Asteroid&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "TestQuest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Vlad/Desktop/TestQuest%20Samokhin%20V%20V/TestQuest/Services/NetworkService.swift"
-                  timestampString = "531585841.175682"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "50"
-                  endingLineNumber = "50"
-                  offsetFromSymbolStart = "3994">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (SwiftyJSON.JSON) -&gt; TestQuest.Asteroid in closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in TestQuest.NetworkService.downloadAsteroids(on: Foundation.Date, completion: (Swift.Array&lt;TestQuest.Asteroid&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "TestQuest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Vlad/Desktop/TestQuest%20Samokhin%20V%20V/TestQuest/Services/NetworkService.swift"
-                  timestampString = "531585841.178013"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "50"
-                  endingLineNumber = "50"
-                  offsetFromSymbolStart = "93">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "implicit closure #3 : @autoclosure () throws -&gt; Swift.Array&lt;TestQuest.Asteroid&gt; in closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in TestQuest.NetworkService.downloadAsteroids(on: Foundation.Date, completion: (Swift.Array&lt;TestQuest.Asteroid&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "TestQuest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Vlad/Desktop/TestQuest%20Samokhin%20V%20V/TestQuest/Services/NetworkService.swift"
-                  timestampString = "531585841.184647"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "50"
-                  endingLineNumber = "50"
-                  offsetFromSymbolStart = "62">
                </Location>
             </Locations>
          </BreakpointContent>

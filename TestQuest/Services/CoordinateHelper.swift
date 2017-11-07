@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 // Управление координатами
-class CoordinateHelper {
+final class CoordinateHelper {
     
     // Ключевые экранные координаты
     let centerY: CGFloat // Координата Y для всех небесных объектов
@@ -47,10 +47,10 @@ class CoordinateHelper {
     
     // Задает максимальные дневные значения для расчета относительных величин координат
     func setDayValues(minDiameter: Double, maxDiameter: Double, maxDistance: Double) {
+       
         self.minDiameter = minDiameter
         self.maxDiameter = maxDiameter
         self.maxDistance = maxDistance
-        
     }
     
     // Определение размера астероида
@@ -65,10 +65,10 @@ class CoordinateHelper {
         default: return .big
         }
     }
-        
-        
-    // На основании дистанции и размера астеройда возвращается фрейм для его размещения на экране
+    
+    //  Расчет фрейма для его размещения на экране на основании дистанции и размера астеройда возвращается
     func calculateFrameFrom(size: Size, andDistance distance: Double) -> CGRect {
+        guard maxDistance != 0 else { return CGRect.zero }
         
         let x =  CGFloat( distance / maxDistance ) * ( endX - startX ) + startX
     
@@ -84,6 +84,4 @@ class CoordinateHelper {
         
         return CGRect(x: x, y: centerY, width: sizeCGFloat, height: sizeCGFloat).shiftToCenter()
     }
-    
-    
 }
