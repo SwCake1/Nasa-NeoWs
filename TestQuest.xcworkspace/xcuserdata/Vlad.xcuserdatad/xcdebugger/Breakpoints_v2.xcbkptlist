@@ -10,13 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestQuest/Controllers/SpaceController.swift"
-            timestampString = "531756871.95716"
+            timestampString = "531908739.919326"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "78"
             endingLineNumber = "78"
-            landmarkName = "drawSpace()"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -160,6 +160,54 @@
             endingLineNumber = "34"
             landmarkName = "init(json:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestQuest/Controllers/SpaceController.swift"
+            timestampString = "531908739.919726"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Date&gt;) -&gt; () in TestQuest.SpaceViewController.(chooseDate in _919B6491A9656DCF12AB6A504141447F)() -&gt; ()"
+                  moduleName = "TestQuest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Vlad/Desktop/TestQuest%20Samokhin%20V%20V/TestQuest/Controllers/SpaceController.swift"
+                  timestampString = "531908676.549494"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #1 : @autoclosure () throws -&gt; Foundation.Date in closure #1 (Swift.Optional&lt;Foundation.Date&gt;) -&gt; () in TestQuest.SpaceViewController.(chooseDate in _919B6491A9656DCF12AB6A504141447F)() -&gt; ()"
+                  moduleName = "TestQuest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Vlad/Desktop/TestQuest%20Samokhin%20V%20V/TestQuest/Controllers/SpaceController.swift"
+                  timestampString = "531908676.551199"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

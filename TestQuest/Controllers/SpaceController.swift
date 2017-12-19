@@ -24,7 +24,7 @@ final class SpaceViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = UIColor.black
+        view.backgroundColor = UIColor(patternImage: #imageLiteral(resourceName: "Space"))
         setupCoordinateHelper()
         downloadAsteroidsAndUpdate()
         drawSpace()
@@ -109,6 +109,7 @@ final class SpaceViewController: UIViewController {
             cancelButtonTitle: "Отмена",
             defaultDate: self.date,
             datePickerMode: .date) { (date) -> Void in
+                guard date != nil else { return }
                 self.date = date ?? Date()
                 self.downloadAsteroidsAndUpdate()
         }
