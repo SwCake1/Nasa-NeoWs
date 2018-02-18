@@ -11,4 +11,6 @@
 3. Должна быть возможность выбора даты.
 4. При нажатии на астеройд, должна отображаться информация о нем.
 
-![Иллюстрация к проекту 1](https://github.com/swcake1/Nasa-NeoWs/raw/master/IMG_7817.PNG) ![Иллюстрация к проекту 2](https://github.com/swcake1/Nasa-NeoWs/raw/master/IMG_7048.PNG)
+ 
+<img src="https://github.com/swcake1/Nasa-NeoWs/raw/master/IMG_7817.PNG" width="640">
+<img src="https://github.com/swcake1/Nasa-NeoWs/raw/master/IMG_7048.PNG" width="640">
